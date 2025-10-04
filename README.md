@@ -59,7 +59,7 @@ If you've made any changes on your github fork, your `git push` command will fai
 git fetch origin
 git merge origin/main -m "Merging github changes" --allow-unrelated-histories
 ```
-Edit your local files, to make sure that the result of `git merge` is what you wanted.  Then try the push again.
+Edit your local files, to make sure that the result of `git merge` is what you wanted.  Then try `git commit -am "saving changes"` and `git push origin main` again.
 
 
 ## Disaster Recovery
