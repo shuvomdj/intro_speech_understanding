@@ -45,7 +45,8 @@ git merge release/main -m "Merging release" --allow-unrelated-histories
 3. Do the homework
 4. Save your changes, then push them to your github fork:
 ```
-git commit -am "saving changes"
+git add .
+git commit -m "saving changes"
 git push origin main
 ```
 
@@ -57,7 +58,8 @@ git merge origin/main -m "Merging github changes" --allow-unrelated-histories
 ```
 Edit your local files, to make sure that the result of `git merge` is what you wanted.  Then try again:
 ```
-git commit -am "saving changes"
+git add .
+git commit -m "saving changes"
 git push origin main
 ```
 
