@@ -9,7 +9,7 @@ Edit `homework1.py`, then check to make sure it worked by typing
 ```
 python grade.py
 ```
-It will print out some commentary.  The last line will be your grade.  If it's 100%, then you should upload your changes to your github repository, so that I can see:
+It will print out some commentary.  The last line will be your grade.  If it's 100%, then you should upload your changes to your github repository, so that your instructor can see it:
 ```
 git add .
 git commit -m "hw1"
