@@ -7,16 +7,17 @@ Understanding."
 ## Getting Started
 
 1. <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">Create your own account on github.com</a>
-1. <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo">Fork this repository</a> in your own account.
-2. Open a terminal on your laptop:
+2. <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo">Fork this repository</a> in your own account.
+3. Open a terminal on your laptop:
     1. <a href="https://learn.microsoft.com/en-us/windows/terminal/install">Windows</a>
     1. <a href="https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac">MacOS</a>
     1. <a href="https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal">Linux</a>
-3. <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">Clone your fork</a> onto your laptop by going to the terminal and typing
+4. <a href="https://github.com/git-guides/install-git">Install git on your laptop.</a>
+5. <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">Clone your fork</a> onto your laptop by going to the terminal and typing
 ```
 git clone https://github.com/<your_github_account_name>/intro_speech_understanding
 ```
-4. <a href="https://docs.github.com/en/get-started/git-basics/managing-remote-repositories">Define two remotes</a>.  One remote should be called `origin`, and should point to your own github fork. One should be called `release`, and should point to my fork.  If these don't already exist, you can create them by typing:
+6. <a href="https://docs.github.com/en/get-started/git-basics/managing-remote-repositories">Define two remotes</a>.  One remote should be called `origin`, and should point to your own github fork. One should be called `release`, and should point to my fork.  If these don't already exist, you can create them by typing:
 ```
 git remote add release https://github.com/jhasegaw/intro_speech_understanding
 git remote add origin https://github.com/<your_github_account_name>/intro_speech_understanding
@@ -26,7 +27,7 @@ Very likely, the second command will cause an error: `fatal: remote origin alrea
 git remote -v
 ```
 It should now report that both `release` and `origin` exist.
-
+7. <a href="https://www.anaconda.com/">Install python on your laptop.</a>
 
 ## Weekly Update
 
