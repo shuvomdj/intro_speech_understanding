@@ -27,6 +27,7 @@ Very likely, the second command will cause an error: `fatal: remote origin alrea
 git remote -v
 ```
 It should now report that both `release` and `origin` exist.
+
 7. <a href="https://www.anaconda.com/">Install python on your laptop.</a>
 
 ## Weekly Update
