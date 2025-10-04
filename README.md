@@ -49,12 +49,17 @@ git commit -am "saving changes"
 git push origin main
 ```
 
+#### If git push has an error
 If you've made any changes on your github fork, your `git push` command will fail.  In that case, you should first merge the changes into the local copy on your laptop:
 ```
 git fetch origin
 git merge origin/main -m "Merging github changes" --allow-unrelated-histories
 ```
-Edit your local files, to make sure that the result of `git merge` is what you wanted.  Then try `git commit -am "saving changes"` and `git push origin main` again.
+Edit your local files, to make sure that the result of `git merge` is what you wanted.  Then try again:
+```
+git commit -am "saving changes"
+git push origin main
+```
 
 
 ## Disaster Recovery
@@ -62,8 +67,8 @@ Edit your local files, to make sure that the result of `git merge` is what you w
 When you are new to git, you will often find that git is asking you a
 question that you don't know how to answer.
 
-If that happens, the easiest solution is to just go to a completely
-new directory, and create a completely new copy on your laptop.  The
-total amount of space required by this repository is tiny; it's
+If that happens, the easiest solution is to just start over!  Don't
+delete your existing local copy.  Instead, create a new local copy.
+The total amount of space required by this repository is tiny; it's
 totally fine for you to have many copies of it.
 
