@@ -4,7 +4,9 @@ This repository contains assignments for the <a
 href="https://www.kcg.edu/">KCGI</a> graduate course "Intro to Speech
 Understanding."
 
-## Getting Started
+---------------------------------------------------------------
+
+# Getting Started
 
 1. <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">Create your own account on github.com</a>
 2. <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo">Fork this repository</a> in your own account.
@@ -30,7 +32,9 @@ It should now report that both `release` and `origin` exist.
 
 7. <a href="https://www.anaconda.com/">Install python on your laptop.</a>
 
-## Weekly Update
+---------------------------------------------------------------
+
+# Weekly Update
 
 This repository will change every week.  In order to merge its changes
 into the copy on your laptop:
