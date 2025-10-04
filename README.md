@@ -6,7 +6,7 @@ Understanding."
 
 ## Getting Started
 
-1. Create your own account on github.com
+1. <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">Create your own account on github.com</a>
 1. <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo">Fork this repository</a> in your own account.
 1. Open a terminal on your laptop:
     1. <a href="https://learn.microsoft.com/en-us/windows/terminal/install">Windows</a>
